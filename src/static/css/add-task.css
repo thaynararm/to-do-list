@@ -1,0 +1,35 @@
+.tasks__input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tasks__input input{
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    border: 2px solid #A3C7C9;
+    border-radius: 0.7rem;
+    padding: 1.1rem;
+}
+
+.tasks__input__text{
+    width: 60%;
+}
+
+
+.tasks__input__select{
+    width: 30%;
+}
+
+.tasks__input__button{
+    border: none;
+    outline: none;
+    border: 2px solid #A3C7C9;
+    border-radius: 0.7rem;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.tasks__input__button:hover{
+    background-color: #A3C7C9;
+}
